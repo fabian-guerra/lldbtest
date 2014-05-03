@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4D3A4319120193003FF912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4D3A4219120193003FF912 /* Foundation.framework */; };
+		1F4D3A4519120193003FF912 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4D3A4419120193003FF912 /* CoreGraphics.framework */; };
+		1F4D3A4719120193003FF912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4D3A4619120193003FF912 /* UIKit.framework */; };
+		1F4D3A4D19120193003FF912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D3A4B19120193003FF912 /* InfoPlist.strings */; };
+		1F4D3A4F19120193003FF912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D3A4E19120193003FF912 /* main.m */; };
+		1F4D3A5319120194003FF912 /* FGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D3A5219120194003FF912 /* FGAppDelegate.m */; };
+		1F4D3A5619120194003FF912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D3A5419120194003FF912 /* Main.storyboard */; };
+		1F4D3A5919120194003FF912 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D3A5819120194003FF912 /* FGViewController.m */; };
+		1F4D3A5B19120194003FF912 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D3A5A19120194003FF912 /* Images.xcassets */; };
+		1F4D3A6219120194003FF912 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4D3A6119120194003FF912 /* XCTest.framework */; };
+		1F4D3A6319120194003FF912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4D3A4219120193003FF912 /* Foundation.framework */; };
+		1F4D3A6419120194003FF912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4D3A4619120193003FF912 /* UIKit.framework */; };
+		1F4D3A6C19120194003FF912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D3A6A19120194003FF912 /* InfoPlist.strings */; };
+		1F4D3A6E19120194003FF912 /* LLDBTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D3A6D19120194003FF912 /* LLDBTestTests.m */; };
+		1F4D3A79191202F0003FF912 /* FGResizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D3A78191202F0003FF912 /* FGResizeViewController.m */; };
+		1F4D3A7C1912060D003FF912 /* FGPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D3A7B1912060D003FF912 /* FGPerson.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F4D3A6519120194003FF912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F4D3A3719120193003FF912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F4D3A3E19120193003FF912;
+			remoteInfo = LLDBTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F4D3A3F19120193003FF912 /* LLDBTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLDBTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4D3A4219120193003FF912 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F4D3A4419120193003FF912 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F4D3A4619120193003FF912 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F4D3A4A19120193003FF912 /* LLDBTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LLDBTest-Info.plist"; sourceTree = "<group>"; };
+		1F4D3A4C19120193003FF912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F4D3A4E19120193003FF912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F4D3A5019120193003FF912 /* LLDBTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLDBTest-Prefix.pch"; sourceTree = "<group>"; };
+		1F4D3A5119120193003FF912 /* FGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGAppDelegate.h; sourceTree = "<group>"; };
+		1F4D3A5219120194003FF912 /* FGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGAppDelegate.m; sourceTree = "<group>"; };
+		1F4D3A5519120194003FF912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F4D3A5719120194003FF912 /* FGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGViewController.h; sourceTree = "<group>"; };
+		1F4D3A5819120194003FF912 /* FGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGViewController.m; sourceTree = "<group>"; };
+		1F4D3A5A19120194003FF912 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F4D3A6019120194003FF912 /* LLDBTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLDBTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4D3A6119120194003FF912 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1F4D3A6919120194003FF912 /* LLDBTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LLDBTestTests-Info.plist"; sourceTree = "<group>"; };
+		1F4D3A6B19120194003FF912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F4D3A6D19120194003FF912 /* LLDBTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDBTestTests.m; sourceTree = "<group>"; };
+		1F4D3A77191202F0003FF912 /* FGResizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGResizeViewController.h; sourceTree = "<group>"; };
+		1F4D3A78191202F0003FF912 /* FGResizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGResizeViewController.m; sourceTree = "<group>"; };
+		1F4D3A7A1912060D003FF912 /* FGPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPerson.h; sourceTree = "<group>"; };
+		1F4D3A7B1912060D003FF912 /* FGPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPerson.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4D3A3C19120193003FF912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4D3A4519120193003FF912 /* CoreGraphics.framework in Frameworks */,
+				1F4D3A4719120193003FF912 /* UIKit.framework in Frameworks */,
+				1F4D3A4319120193003FF912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4D3A5D19120194003FF912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4D3A6219120194003FF912 /* XCTest.framework in Frameworks */,
+				1F4D3A6419120194003FF912 /* UIKit.framework in Frameworks */,
+				1F4D3A6319120194003FF912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4D3A3619120193003FF912 = {
+			isa = PBXGroup;
+			children = (
+				1F4D3A4819120193003FF912 /* LLDBTest */,
+				1F4D3A6719120194003FF912 /* LLDBTestTests */,
+				1F4D3A4119120193003FF912 /* Frameworks */,
+				1F4D3A4019120193003FF912 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F4D3A4019120193003FF912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4D3A3F19120193003FF912 /* LLDBTest.app */,
+				1F4D3A6019120194003FF912 /* LLDBTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F4D3A4119120193003FF912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F4D3A4219120193003FF912 /* Foundation.framework */,
+				1F4D3A4419120193003FF912 /* CoreGraphics.framework */,
+				1F4D3A4619120193003FF912 /* UIKit.framework */,
+				1F4D3A6119120194003FF912 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F4D3A4819120193003FF912 /* LLDBTest */ = {
+			isa = PBXGroup;
+			children = (
+				1F4D3A5119120193003FF912 /* FGAppDelegate.h */,
+				1F4D3A5219120194003FF912 /* FGAppDelegate.m */,
+				1F4D3A5419120194003FF912 /* Main.storyboard */,
+				1F4D3A5719120194003FF912 /* FGViewController.h */,
+				1F4D3A5819120194003FF912 /* FGViewController.m */,
+				1F4D3A77191202F0003FF912 /* FGResizeViewController.h */,
+				1F4D3A78191202F0003FF912 /* FGResizeViewController.m */,
+				1F4D3A7A1912060D003FF912 /* FGPerson.h */,
+				1F4D3A7B1912060D003FF912 /* FGPerson.m */,
+				1F4D3A5A19120194003FF912 /* Images.xcassets */,
+				1F4D3A4919120193003FF912 /* Supporting Files */,
+			);
+			path = LLDBTest;
+			sourceTree = "<group>";
+		};
+		1F4D3A4919120193003FF912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F4D3A4A19120193003FF912 /* LLDBTest-Info.plist */,
+				1F4D3A4B19120193003FF912 /* InfoPlist.strings */,
+				1F4D3A4E19120193003FF912 /* main.m */,
+				1F4D3A5019120193003FF912 /* LLDBTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F4D3A6719120194003FF912 /* LLDBTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F4D3A6D19120194003FF912 /* LLDBTestTests.m */,
+				1F4D3A6819120194003FF912 /* Supporting Files */,
+			);
+			path = LLDBTestTests;
+			sourceTree = "<group>";
+		};
+		1F4D3A6819120194003FF912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F4D3A6919120194003FF912 /* LLDBTestTests-Info.plist */,
+				1F4D3A6A19120194003FF912 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F4D3A3E19120193003FF912 /* LLDBTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4D3A7119120194003FF912 /* Build configuration list for PBXNativeTarget "LLDBTest" */;
+			buildPhases = (
+				1F4D3A3B19120193003FF912 /* Sources */,
+				1F4D3A3C19120193003FF912 /* Frameworks */,
+				1F4D3A3D19120193003FF912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLDBTest;
+			productName = LLDBTest;
+			productReference = 1F4D3A3F19120193003FF912 /* LLDBTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F4D3A5F19120194003FF912 /* LLDBTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4D3A7419120194003FF912 /* Build configuration list for PBXNativeTarget "LLDBTestTests" */;
+			buildPhases = (
+				1F4D3A5C19120194003FF912 /* Sources */,
+				1F4D3A5D19120194003FF912 /* Frameworks */,
+				1F4D3A5E19120194003FF912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4D3A6619120194003FF912 /* PBXTargetDependency */,
+			);
+			name = LLDBTestTests;
+			productName = LLDBTestTests;
+			productReference = 1F4D3A6019120194003FF912 /* LLDBTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F4D3A3719120193003FF912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Fabian Guerra";
+				TargetAttributes = {
+					1F4D3A5F19120194003FF912 = {
+						TestTargetID = 1F4D3A3E19120193003FF912;
+					};
+				};
+			};
+			buildConfigurationList = 1F4D3A3A19120193003FF912 /* Build configuration list for PBXProject "LLDBTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F4D3A3619120193003FF912;
+			productRefGroup = 1F4D3A4019120193003FF912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4D3A3E19120193003FF912 /* LLDBTest */,
+				1F4D3A5F19120194003FF912 /* LLDBTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F4D3A3D19120193003FF912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4D3A5B19120194003FF912 /* Images.xcassets in Resources */,
+				1F4D3A4D19120193003FF912 /* InfoPlist.strings in Resources */,
+				1F4D3A5619120194003FF912 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4D3A5E19120194003FF912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4D3A6C19120194003FF912 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4D3A3B19120193003FF912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4D3A4F19120193003FF912 /* main.m in Sources */,
+				1F4D3A79191202F0003FF912 /* FGResizeViewController.m in Sources */,
+				1F4D3A5319120194003FF912 /* FGAppDelegate.m in Sources */,
+				1F4D3A5919120194003FF912 /* FGViewController.m in Sources */,
+				1F4D3A7C1912060D003FF912 /* FGPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4D3A5C19120194003FF912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4D3A6E19120194003FF912 /* LLDBTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F4D3A6619120194003FF912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F4D3A3E19120193003FF912 /* LLDBTest */;
+			targetProxy = 1F4D3A6519120194003FF912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F4D3A4B19120193003FF912 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4D3A4C19120193003FF912 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F4D3A5419120194003FF912 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4D3A5519120194003FF912 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F4D3A6A19120194003FF912 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4D3A6B19120194003FF912 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F4D3A6F19120194003FF912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F4D3A7019120194003FF912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F4D3A7219120194003FF912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LLDBTest/LLDBTest-Prefix.pch";
+				INFOPLIST_FILE = "LLDBTest/LLDBTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F4D3A7319120194003FF912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LLDBTest/LLDBTest-Prefix.pch";
+				INFOPLIST_FILE = "LLDBTest/LLDBTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F4D3A7519120194003FF912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LLDBTest.app/LLDBTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LLDBTest/LLDBTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LLDBTestTests/LLDBTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1F4D3A7619120194003FF912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LLDBTest.app/LLDBTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LLDBTest/LLDBTest-Prefix.pch";
+				INFOPLIST_FILE = "LLDBTestTests/LLDBTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F4D3A3A19120193003FF912 /* Build configuration list for PBXProject "LLDBTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4D3A6F19120194003FF912 /* Debug */,
+				1F4D3A7019120194003FF912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4D3A7119120194003FF912 /* Build configuration list for PBXNativeTarget "LLDBTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4D3A7219120194003FF912 /* Debug */,
+				1F4D3A7319120194003FF912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F4D3A7419120194003FF912 /* Build configuration list for PBXNativeTarget "LLDBTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4D3A7519120194003FF912 /* Debug */,
+				1F4D3A7619120194003FF912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F4D3A3719120193003FF912 /* Project object */;
+}
